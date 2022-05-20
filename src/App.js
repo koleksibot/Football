@@ -21,7 +21,7 @@ class App extends Component {
     };
 
     fetchData(id, name) {
-        const Token = 'YOUR_API_TOKEN',
+        const Token = 'zf8/V7dkgLvkGdeJZ1Jx4g==',
         URL = 'https://api.football-data.org/v2/competitions/' + id + '/standings';
 
         fetch(URL, { headers: { 'X-Auth-Token': Token } })
